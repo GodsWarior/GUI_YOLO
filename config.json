@@ -1,0 +1,18 @@
+{
+    "model_path": "C:/Users/p8866/mypython/proects/GUI_YOLO/runs/red/weights/last.pt",
+    "video_path": "C:/Users/p8866/mypython/proects/GUI_YOLO/videoTest2.mp4",
+    "image_path": "C:/Users/p8866/mypython/proects/Graphical_Interface_YOLO/hole2.jpg",
+    "output_folder": "C:/Users/p8866/mypython/proects/Graphical_Interface_YOLO/photos",
+    "dataset_path": "dataset",
+    "epochs": 2,
+    "batch": 1,
+    "imgsz": 640,
+    "num_classes": 4,
+    "class_names": [
+        "Hole",
+        "class1",
+        "class2",
+        "class3"
+    ],
+    "data_yaml_path": "data.yaml"
+}

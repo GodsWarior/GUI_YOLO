@@ -1,0 +1,6 @@
+names:
+- nice
+nc: 1
+test: C:/Users/p8866/mypython/proects/Graphical_Interface_YOLO/dataset\test/images
+train: C:/Users/p8866/mypython/proects/Graphical_Interface_YOLO/dataset\train/images
+val: C:/Users/p8866/mypython/proects/Graphical_Interface_YOLO/dataset\valid/images
