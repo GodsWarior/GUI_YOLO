@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gui-yolo"
+version = "1.0.0"
+description = "Graphical Dataset Editor and Annotation Tool for YOLO Object Detection & Training"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Казаков Д. В.", email = "p8866857@gmail.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "PyQt6>=6.4.0",
+    "ultralytics>=8.0.0",
+    "opencv-python>=4.8.0",
+    "pyyaml>=6.0",
+    "torch>=2.0.0",
+    "numpy>=1.24.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/GodsWarior/GUI_YOLO"
+Repository = "https://github.com/GodsWarior/GUI_YOLO.git"
+"Bug Tracker" = "https://github.com/GodsWarior/GUI_YOLO/issues"

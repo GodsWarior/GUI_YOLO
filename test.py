@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Kazakou Danil Viktorovich (GodsWarior)
+# GUI_YOLO: Dataset Editor and Annotation Studio for YOLO
+
 import cv2 as cv
 import numpy as np
 import time
